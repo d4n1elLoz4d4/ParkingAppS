@@ -1,0 +1,23 @@
+﻿<Window x:Class="ParkingApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ParkingApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Center" Height="108" Margin="0,20,0,0" TextWrapping="Wrap" Text="{Binding Path=Modelo.Placa}" VerticalAlignment="Top" Width="544" FontWeight="Bold" FontSize="48" CharacterCasing="Upper"/>
+        <TextBox HorizontalAlignment="Center" Height="22" Margin="0,132,0,0" TextWrapping="Wrap" Text="{Binding Path=Modelo.FechaIngreso}" VerticalAlignment="Top" Width="544"/>
+        <TextBox HorizontalAlignment="Center" Height="21" Margin="0,159,0,0" TextWrapping="Wrap" Text="{Binding Path=Modelo.FechaSalida}" VerticalAlignment="Top" Width="544"/>
+        <Label Content="Placa" HorizontalAlignment="Left" Margin="43,67,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ingreso" HorizontalAlignment="Left" Margin="43,125,0,0" VerticalAlignment="Top"/>
+        <Label Content="Salida" HorizontalAlignment="Left" Margin="43,157,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Center" Height="48" Margin="0,185,0,0" TextWrapping="Wrap" Text="{Binding Path=Modelo.Valor}" VerticalAlignment="Top" Width="544" FontWeight="Bold" FontSize="24" CharacterCasing="Upper"/>
+        <TextBox HorizontalAlignment="Center" Height="21" Margin="0,238,0,0" TextWrapping="Wrap" Text="{Binding Path=Modelo.Minutos}" VerticalAlignment="Top" Width="544"/>
+        <Label Content="Total" HorizontalAlignment="Left" Margin="49,196,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tiempo" HorizontalAlignment="Left" Height="29" Margin="49,238,0,0" VerticalAlignment="Top" Width="59"/>
+
+        <Button Content="Procesar" HorizontalAlignment="Left" Margin="585,312,0,0" VerticalAlignment="Top" Width="87" Command="{Binding Path=pProcesar}"/>
+    </Grid>
+</Window>
