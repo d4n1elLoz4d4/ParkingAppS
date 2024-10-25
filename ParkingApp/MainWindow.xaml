@@ -7,14 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox HorizontalAlignment="Center" Height="108" Margin="0,20,0,0" TextWrapping="Wrap" Text="{Binding Path=Modelo.Placa}" VerticalAlignment="Top" Width="544" FontWeight="Bold" FontSize="48" CharacterCasing="Upper" TextChanged="TextBox_TextChanged"/>
-        <TextBox Name="FechaIni" HorizontalAlignment="Center" Height="22" Margin="0,132,0,0" TextWrapping="Wrap" Text="{Binding Path=Modelo.FechaIngreso}" VerticalAlignment="Top" Width="544"/>
-        <TextBox Name="FechaFin" HorizontalAlignment="Center" Height="21" Margin="0,159,0,0" TextWrapping="Wrap" Text="{Binding Path=Modelo.FechaSalida}" VerticalAlignment="Top" Width="544"/>
+        <TextBox Name="txPlaca" HorizontalAlignment="Center" Height="108" Margin="0,20,0,0" TextWrapping="Wrap" Text="{Binding Path=ControlModelo.Placa}" VerticalAlignment="Top" Width="544" FontWeight="Bold" FontSize="48" CharacterCasing="Upper">
+            <TextBox.InputBindings>
+                <KeyBinding Key="Enter" Command="{Binding pEnter}"
+                            CommandParameter="{Binding Path=Text, RelativeSource={RelativeSource AncestorType={x:Type TextBox}}}"/>
+                
+            </TextBox.InputBindings>
+        </TextBox>
+
+        <TextBox Name="txFechaIni" HorizontalAlignment="Center" Height="22" Margin="0,132,0,0" TextWrapping="Wrap" Text="{Binding Path=ControlModelo.FechaIngreso, Mode=TwoWay}" VerticalAlignment="Top" Width="544"/>
+        <TextBox Name="txFechaFin" HorizontalAlignment="Center" Height="21" Margin="0,159,0,0" TextWrapping="Wrap" Text="{Binding Path=ControlModelo.FechaSalida}" VerticalAlignment="Top" Width="544"/>
         <Label Content="Placa" HorizontalAlignment="Left" Margin="43,67,0,0" VerticalAlignment="Top"/>
         <Label Content="Ingreso" HorizontalAlignment="Left" Margin="43,125,0,0" VerticalAlignment="Top"/>
         <Label Content="Salida" HorizontalAlignment="Left" Margin="43,157,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Center" Height="48" Margin="0,185,0,0" TextWrapping="Wrap" Text="{Binding Path=Modelo.Valor}" VerticalAlignment="Top" Width="544" FontWeight="Bold" FontSize="24" CharacterCasing="Upper"/>
-        <TextBox Name="Tiempo" HorizontalAlignment="Center" Height="21" Margin="0,238,0,0" TextWrapping="Wrap" Text="{Binding Path=Modelo.Minutos}" VerticalAlignment="Top" Width="544"/>
+        <TextBox Name="txTotal" HorizontalAlignment="Center" Height="48" Margin="0,185,0,0" TextWrapping="Wrap" Text="{Binding Path=ControlModelo.Valor}" VerticalAlignment="Top" Width="544" FontWeight="Bold" FontSize="36" CharacterCasing="Upper"/>
+        <TextBox Name="txTiempo" HorizontalAlignment="Center" Height="21" Margin="0,238,0,0" TextWrapping="Wrap" Text="{Binding Path=ControlModelo.Minutos}" VerticalAlignment="Top" Width="544"/>
         <Label Content="Total" HorizontalAlignment="Left" Margin="49,196,0,0" VerticalAlignment="Top"/>
         <Label Content="Tiempo" HorizontalAlignment="Left" Height="29" Margin="49,238,0,0" VerticalAlignment="Top" Width="59"/>
 
