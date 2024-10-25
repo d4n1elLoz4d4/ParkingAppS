@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data.Entity.ModelConfiguration.Conventions;
+﻿using ParkingApp.Modelo;
 using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Data.SQLite;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Controls;
 
 namespace ParkingApp.BaseDatos
 {
@@ -51,6 +45,6 @@ namespace ParkingApp.BaseDatos
             return db;
         }
 
-        public DbSet<Control> Control { get; set; }
+        public DbSet<ControlParqueo> ControlCarros { get; set; }
     }
 }

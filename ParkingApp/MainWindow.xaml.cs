@@ -1,4 +1,9 @@
 ﻿using ParkingApp.Controlador;
+using ParkingApp.Dao;
+using ParkingApp.General;
+using ParkingApp.Modelo;
+using System;
+using System.Data.Entity;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -21,9 +26,30 @@ namespace ParkingApp
 
         public MainWindow()
         {
-            InitializeComponent();
+            DbConfiguration.SetConfiguration(new SQLiteConfiguration());
             controlador = new ControlView();
             DataContext = controlador;
+
+            InitializeComponent();
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (!ParkingDAO.ExistePLaca(controlador.Modelo))
+            {
+                controlador.Modelo.FechaIngreso = DateTime.Now.ToString();
+                FechaIni.Text = controlador.Modelo.FechaIngreso;
+            }
+            else
+            {
+                ControlParqueo existe = ParkingDAO.ObtDatosPlaca(controlador.Modelo);
+                controlador.Modelo.FechaIngreso = existe.FechaIngreso;
+                controlador.Modelo.FechaSalida = DateTime.Now.ToString();
+                FechaFin.Text = controlador.Modelo.FechaSalida;
+
+                controlador.Modelo.Minutos = int.Parse((DateTime.Parse(controlador.Modelo.FechaSalida) - DateTime.Parse(controlador.Modelo.FechaIngreso)).ToString());
+                Tiempo.Text = controlador.Modelo.Minutos.ToString();
+            }
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using ParkingApp.Interface;
+﻿using ParkingApp.Dao;
+using ParkingApp.Interface;
 using ParkingApp.Modelo;
 using System;
 using System.Collections.Generic;
@@ -13,14 +14,19 @@ namespace ParkingApp.Controlador
     public class ControlView: ViewModelBase,IViews
     {
         private readonly DelegateCommand _procesar;
+        private ControlParqueo modelo;
 
         public ControlView()
         {
-            this.Modelo = new Control();
+            this.Modelo = new ControlParqueo();
             _procesar = new DelegateCommand(Procesar);
         }
 
-        public Control Modelo { get; set; }
+        public ControlParqueo Modelo
+        {
+            get { return modelo; }
+            set { SetProperty(ref modelo, value); }
+        }
         public ICommand pProcesar => _procesar;
 
         public void Limpíar(object commandParameter)
@@ -30,9 +36,9 @@ namespace ParkingApp.Controlador
 
         public void Procesar(object commandParameter)
         {
-            Control nuevo = new Control();
-            nuevo.Placa = Modelo.Placa;
-            nuevo.FechaIngreso = DateTime.Now.ToString();
+            Modelo.Tipo = 1;
+
+            ParkingDAO.pGuardarParqueo(Modelo);
         }
     }
 }
