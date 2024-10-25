@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal\\Desarrollo\\Parking\\ParkingApp\\ParkingApp\\ParkingApp.csproj": {}
+    "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\ParkingApp.csproj": {}
   },
   "projects": {
-    "D:\\Personal\\Desarrollo\\Parking\\ParkingApp\\ParkingApp\\ParkingApp.csproj": {
+    "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\ParkingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\Desarrollo\\Parking\\ParkingApp\\ParkingApp\\ParkingApp.csproj",
+        "projectUniqueName": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\ParkingApp.csproj",
         "projectName": "ParkingApp",
-        "projectPath": "D:\\Personal\\Desarrollo\\Parking\\ParkingApp\\ParkingApp\\ParkingApp.csproj",
+        "projectPath": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\ParkingApp.csproj",
         "packagesPath": "C:\\Users\\Llozada\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\Desarrollo\\Parking\\ParkingApp\\ParkingApp\\obj\\",
+        "outputPath": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,11 +50,7 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows7.0",
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.5.1, )"
-            },
-            "System.Data.SQLite.Core": {
+            "System.Data.SQLite": {
               "target": "Package",
               "version": "[1.0.119, )"
             },
