@@ -46,5 +46,6 @@ namespace ParkingApp.BaseDatos
         }
 
         public DbSet<ControlParqueo> ControlCarros { get; set; }
+        public DbSet<Tipo> Tipos { get; set; }
     }
 }

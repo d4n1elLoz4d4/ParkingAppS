@@ -7,32 +7,20 @@
       "RelativeMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|solutionrelative:parkingapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|d:\\personal\\desarrollo\\parkingapp\\parkingapp\\controlador\\controlview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|solutionrelative:parkingapp\\controlador\\controlview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|d:\\personal\\desarrollo\\parkingapp\\parkingapp\\basedatos\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|solutionrelative:parkingapp\\basedatos\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|d:\\personal\\desarrollo\\parkingapp\\parkingapp\\controlador\\controlcontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|solutionrelative:parkingapp\\controlador\\controlcontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|d:\\personal\\desarrollo\\parkingapp\\parkingapp\\dao\\parkingdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|solutionrelative:parkingapp\\dao\\parkingdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|d:\\personal\\desarrollo\\parkingapp\\parkingapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|solutionrelative:parkingapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|d:\\personal\\desarrollo\\parkingapp\\parkingapp\\modelo\\controlparqueo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|solutionrelative:parkingapp\\modelo\\controlparqueo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|d:\\personal\\desarrollo\\parkingapp\\parkingapp\\parkingapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|solutionrelative:parkingapp\\parkingapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|d:\\personal\\desarrollo\\parkingapp\\parkingapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|solutionrelative:parkingapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|d:\\personal\\desarrollo\\parkingapp\\parkingapp\\modelo\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F163E287-8613-4B3A-B62A-87F1C4C65820}|ParkingApp\\ParkingApp.csproj|solutionrelative:parkingapp\\modelo\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,28 +34,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ParkingApp",
-              "DocumentMoniker": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\ParkingApp.csproj",
-              "RelativeDocumentMoniker": "ParkingApp\\ParkingApp.csproj",
-              "ToolTip": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\ParkingApp.csproj",
-              "RelativeToolTip": "ParkingApp\\ParkingApp.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-24T15:22:21.329Z",
-              "IsPinned": true,
+              "DocumentIndex": 2,
+              "Title": "ParkingDAO.cs",
+              "DocumentMoniker": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\Dao\\ParkingDAO.cs",
+              "RelativeDocumentMoniker": "ParkingApp\\Dao\\ParkingDAO.cs",
+              "ToolTip": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\Dao\\ParkingDAO.cs",
+              "RelativeToolTip": "ParkingApp\\Dao\\ParkingDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:32:32.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ControlParqueo.cs",
-              "DocumentMoniker": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\Modelo\\ControlParqueo.cs",
-              "RelativeDocumentMoniker": "ParkingApp\\Modelo\\ControlParqueo.cs",
-              "ToolTip": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\Modelo\\ControlParqueo.cs",
-              "RelativeToolTip": "ParkingApp\\Modelo\\ControlParqueo.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswBUAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ControlControlador.cs",
+              "DocumentMoniker": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\Controlador\\ControlControlador.cs",
+              "RelativeDocumentMoniker": "ParkingApp\\Controlador\\ControlControlador.cs",
+              "ToolTip": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\Controlador\\ControlControlador.cs",
+              "RelativeToolTip": "ParkingApp\\Controlador\\ControlControlador.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T18:21:59.512Z",
+              "WhenOpened": "2024-10-25T17:28:56.201Z",
               "EditorCaption": ""
             },
             {
@@ -79,71 +67,33 @@
               "ToolTip": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\MainWindow.xaml",
               "RelativeToolTip": "ParkingApp\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-24T15:16:13.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ControlView.cs",
-              "DocumentMoniker": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\Controlador\\ControlView.cs",
-              "RelativeDocumentMoniker": "ParkingApp\\Controlador\\ControlView.cs",
-              "ToolTip": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\Controlador\\ControlView.cs",
-              "RelativeToolTip": "ParkingApp\\Controlador\\ControlView.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAwwCUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T18:26:30.686Z",
+              "WhenOpened": "2024-10-25T17:28:32.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ParkingDAO.cs",
-              "DocumentMoniker": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\Dao\\ParkingDAO.cs",
-              "RelativeDocumentMoniker": "ParkingApp\\Dao\\ParkingDAO.cs",
-              "ToolTip": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\Dao\\ParkingDAO.cs",
-              "RelativeToolTip": "ParkingApp\\Dao\\ParkingDAO.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAywBsAAAAQAAAAAAAAAA==",
+              "Title": "ControlParqueo.cs",
+              "DocumentMoniker": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\Modelo\\ControlParqueo.cs",
+              "RelativeDocumentMoniker": "ParkingApp\\Modelo\\ControlParqueo.cs",
+              "ToolTip": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\Modelo\\ControlParqueo.cs",
+              "RelativeToolTip": "ParkingApp\\Modelo\\ControlParqueo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T18:28:36.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataBaseContext.cs",
-              "DocumentMoniker": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\BaseDatos\\DataBaseContext.cs",
-              "RelativeDocumentMoniker": "ParkingApp\\BaseDatos\\DataBaseContext.cs",
-              "ToolTip": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\BaseDatos\\DataBaseContext.cs",
-              "RelativeToolTip": "ParkingApp\\BaseDatos\\DataBaseContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T15:46:38.934Z",
+              "WhenOpened": "2024-10-25T17:28:01.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ParkingApp\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ParkingApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAjwDIAAABDAAAAAAAAAA==",
+              "Title": "Tipo.cs",
+              "DocumentMoniker": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\Modelo\\Tipo.cs",
+              "RelativeDocumentMoniker": "ParkingApp\\Modelo\\Tipo.cs",
+              "ToolTip": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\Modelo\\Tipo.cs",
+              "RelativeToolTip": "ParkingApp\\Modelo\\Tipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T15:16:12.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\App.xaml",
-              "RelativeDocumentMoniker": "ParkingApp\\App.xaml",
-              "ToolTip": "D:\\Personal\\Desarrollo\\ParkingApp\\ParkingApp\\App.xaml",
-              "RelativeToolTip": "ParkingApp\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-25T02:47:30.859Z",
+              "WhenOpened": "2024-10-25T17:28:00.413Z",
               "EditorCaption": ""
             }
           ]
